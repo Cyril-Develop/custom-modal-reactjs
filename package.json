@@ -1,0 +1,35 @@
+{
+  "name": "custom-modal",
+  "version": "1.0.0",
+  "description": "A simple modal component for React",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "clean": "if exist dist rmdir /s /q dist",
+    "build": "npm run clean && tsc && xcopy package.json dist /Y && xcopy README.md dist /Y"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyril-Develop/custom-modal"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": {
+    "name": "Cyril develop",
+    "url": "https://cyril-develop.fr/"
+  },
+  "bugs": {
+    "url": "https://github.com/Cyril-Develop/custom-modal/issues"
+  },
+  "homepage": "https://github.com/Cyril-Develop/custom-modal#readme",
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/react": "^17.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  }
+}
