@@ -1,5 +1,5 @@
 {
-  "name": "custom-modal-reactjs",
+  "name": "reactjs-custom-modal",
   "version": "1.0.0",
   "description": "A simple modal component for React",
   "main": "index.js",
@@ -10,7 +10,7 @@
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cyril-Develop/custom-modal-reactjs"
+    "url": "git+https://github.com/Cyril-Develop/reactjs-custom-modal"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
     "url": "https://cyril-develop.fr/"
   },
   "bugs": {
-    "url": "https://github.com/Cyril-Develop/custom-modal-reactjs/issues"
+    "url": "https://github.com/Cyril-Develop/reactjs-custom-modal/issues"
   },
-  "homepage": "https://github.com/Cyril-Develop/custom-modal-reactjs#readme",
+  "homepage": "https://github.com/Cyril-Develop/reactjs-custom-modal#readme",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",

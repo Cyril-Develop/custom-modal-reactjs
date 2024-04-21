@@ -1,16 +1,16 @@
 # Custom Modal
 
-## Getting Started
+## 🚀 Getting Started
 
 Install This package :
 ```
 npm install custom-modal-reactjs
 ```
 
-Exemple:
+## ✨ Example:
 ```js
 import React, { useState } from 'react';
-import Modal from 'custom-modal-reactjs';
+import { Modal } from 'custom-modal-reactjs';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -33,3 +33,11 @@ function App() {
 
 export default App;
 ```
+
+## 📌 Props
+
+| Prop     | Description                                   |
+|----------|-----------------------------------------------|
+| text     | The text that will be displayed in the modal
+| isOpen   | A boolean that will open the modal if true
+| onClose  | The function that will close the modal
