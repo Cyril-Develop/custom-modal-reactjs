@@ -7,15 +7,27 @@ interface ModalProps {
   text: string;
   isOpen: boolean;
   onClose: () => void;
+  textColor?: string;
+  backgroundColor?: string;
 }
 
-export function Modal({ text, isOpen, onClose }: ModalProps) {
-  return (
+export function Modal({
+  text,
+  isOpen,
+  onClose,
+  textColor = "#fff",
+  backgroundColor = "#157846",
+}: ModalProps) {
+  const modalStyle: React.CSSProperties = {
+    color: textColor,
+    backgroundColor: backgroundColor,
+  };
 
+  return (
     <div>
       {isOpen && (
         <div className="modal_wrapper">
-          <div className="modal_wrapper_content">
+          <div className="modal_wrapper_content" style={modalStyle}>
             <button
               type="button"
               className="modal_wrapper_content_btn"
@@ -30,4 +42,4 @@ export function Modal({ text, isOpen, onClose }: ModalProps) {
       )}
     </div>
   );
-};
+}

@@ -36,8 +36,10 @@ export default App;
 
 ## 📌 Props
 
-| Prop     | Description                                   |
-|----------|-----------------------------------------------|
-| text     | The text that will be displayed in the modal
-| isOpen   | A boolean that will open the modal if true
-| onClose  | The function that will close the modal
+| Prop              | Description                                   | Default     |     
+|-------------------|-----------------------------------------------|-------------|
+| text              | The text that will be displayed in the modal |             |
+| isOpen            | A boolean that will open the modal if true   |             |
+| onClose           | The function that will close the modal       |             |
+| textColor         | The color of the text in the modal           | #fff (white)|
+| backgroundColor   | The background color of the modal             | #157846 (green) |
