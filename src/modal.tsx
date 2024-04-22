@@ -9,6 +9,7 @@ interface ModalProps {
   onClose: () => void;
   textColor?: string;
   backgroundColor?: string;
+  iconColor?: string;
 }
 
 export function Modal({
@@ -17,10 +18,15 @@ export function Modal({
   onClose,
   textColor = "#fff",
   backgroundColor = "#157846",
+  iconColor = "#000",
 }: ModalProps) {
   const modalStyle: React.CSSProperties = {
     color: textColor,
     backgroundColor: backgroundColor,
+  };
+
+  const iconStyle: React.CSSProperties = {
+    color: iconColor,
   };
 
   return (
@@ -33,6 +39,7 @@ export function Modal({
               className="modal_wrapper_content_btn"
               onClick={onClose}
               aria-label="Close modal"
+              style={iconStyle}
             >
               <FontAwesomeIcon icon={faClose} />
             </button>

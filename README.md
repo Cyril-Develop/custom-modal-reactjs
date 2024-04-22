@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <button onClick={openModal}>Open Modal</button>
-      <Modal text="Example Text" isOpen={isModalOpen} onClose={closeModal} />
+      <Modal text="Example Text" isOpen={isModalOpen} onClose={closeModal} textColor="#fff" backgroundColor="#157846" iconColor="red"/>
     </div>
   );
 }
@@ -43,3 +43,4 @@ export default App;
 | onClose           | The function that will close the modal       |             |
 | textColor         | The color of the text in the modal           | #fff (white)|
 | backgroundColor   | The background color of the modal             | #157846 (green) |
+| iconColor   | The color of the icon            | red |
