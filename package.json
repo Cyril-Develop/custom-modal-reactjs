@@ -1,12 +1,12 @@
 {
   "name": "reactjs-custom-modal",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A simple modal component for React",
   "main": "index.js",
   "types": "module",
   "scripts": {
     "clean": "if exist dist rmdir /s /q dist",
-    "build": "npm run clean && tsc && xcopy package.json dist /Y && xcopy README.md dist /Y && copy src\\modal.css dist\\modal.css"
+    "build": "npm run clean && tsc && xcopy package.json dist /Y && xcopy README.md dist /Y && xcopy src\\styles dist\\styles /E /I /Y && xcopy src\\assets dist\\assets /E /I /Y"
     },
   "repository": {
     "type": "git",

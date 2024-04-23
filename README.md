@@ -7,6 +7,8 @@ Install This package :
 npm install custom-modal-reactjs
 ```
 
+![Screenshot](./src/assets/screenshot.png)
+
 ## ✨ Example:
 ```js
 import React, { useState } from 'react';
