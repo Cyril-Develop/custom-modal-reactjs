@@ -4,7 +4,7 @@
 
 Install This package :
 ```
-npm install custom-modal-reactjs
+npm install reactjs-custom-modal
 ```
 
 ![Screenshot](./src/assets/screenshot.png)
@@ -12,7 +12,7 @@ npm install custom-modal-reactjs
 ## ✨ Example:
 ```js
 import React, { useState } from 'react';
-import { Modal } from 'custom-modal-reactjs';
+import { Modal } from "reactjs-custom-modal";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
