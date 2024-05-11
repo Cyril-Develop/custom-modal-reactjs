@@ -2,7 +2,7 @@
   "name": "reactjs-custom-modal",
   "version": "1.0.5",
   "description": "A simple modal component for React",
-  "main": "index.js",
+  "main": "index.ts",
   "types": "module",
   "scripts": {
     "clean": "if exist dist rmdir /s /q dist",
